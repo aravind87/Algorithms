@@ -5,7 +5,9 @@ package com.algo.linkedlist;
  */
 public class LinkedListExample {
 
-    public class Node {
+    class Node<T> {
+        T data;
+        Node<T> next;
 
 
     }
